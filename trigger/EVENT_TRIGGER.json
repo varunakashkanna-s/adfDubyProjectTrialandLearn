@@ -1,0 +1,24 @@
+{
+	"name": "EVENT_TRIGGER",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_LOOKUP_FILTER_COPY",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/multi-output/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/02ba7d14-72a8-4e3a-ae70-49f796918f1c/resourceGroups/rg_test/providers/Microsoft.Storage/storageAccounts/adlstrialandlearn",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

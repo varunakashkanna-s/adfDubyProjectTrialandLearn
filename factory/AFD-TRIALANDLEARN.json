@@ -1,0 +1,15 @@
+{
+	"name": "AFD-TRIALANDLEARN",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6931b93a-05cd-427c-9e43-6cd15a442815",
+		"tenantId": "a81eb1e6-caaf-4b70-86a1-8e28a97a7135"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "SqlServer6",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "localhost\\SQLEXPRESS",
+			"database": "AKASH",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "testaccount",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault_sqlserver",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "passwordSqlServer"
+			}
+		}
+	}
+}

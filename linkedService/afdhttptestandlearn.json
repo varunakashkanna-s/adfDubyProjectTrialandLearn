@@ -1,0 +1,15 @@
+{
+	"name": "afdhttptestandlearn",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://ursa-labs-taxi-data.s3.amazonaws.com/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "test123",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDg1MDYzNUVBLUVGRjYtNEVDNC1BRDk4LUZCRjJCOEJDNUQxNl85ZGU1NDRlNy02N2M0LTQ5NTYtOTMwMC03ZTA4NjMyYzE3NzgiDQp9"
+		}
+	}
+}
