@@ -2,7 +2,7 @@
 	"name": "SCHEDULING_TRIGGER",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
