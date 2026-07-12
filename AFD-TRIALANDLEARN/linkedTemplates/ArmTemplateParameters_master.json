@@ -1,0 +1,177 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AFD-TRIALANDLEARN"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"DS_BINARY_TXT_connectionString": {
+			"value": ""
+		},
+		"LS_ADLS_OUTPUT_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_BLOB_INPUT_CSV_ADLS_OUTPUT_PARQUET_connectionString": {
+			"value": ""
+		},
+		"LS_MULTI_INPUT_connectionString": {
+			"value": ""
+		},
+		"LS_MULTI_OUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_OUTPUT_BINARY_accountKey": {
+			"value": ""
+		},
+		"LS_OUTPUT_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"SqlServer4_password": {
+			"value": ""
+		},
+		"SqlServer5_password": {
+			"value": ""
+		},
+		"afdhttptestandlearn_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://azureblobstrialandlearn.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlstrialandlearn.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://KeyValut-TrialndLearn.vault.azure.net/"
+		},
+		"AzureKeyVault_sqlserver_properties_typeProperties_baseUrl": {
+			"value": "https://KeyValut-TrialndLearn.vault.azure.net/"
+		},
+		"LS_ADLS_OUTPUT_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlstrialandlearn.dfs.core.windows.net/"
+		},
+		"LS_INPUT_RESTAPI_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_MULTI_OUTPUT_properties_typeProperties_url": {
+			"value": "https://adlstrialandlearn.dfs.core.windows.net/"
+		},
+		"LS_OUTPUT_BINARY_properties_typeProperties_url": {
+			"value": "https://adlstrialandlearn.dfs.core.windows.net/"
+		},
+		"LS_OUTPUT_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlstrialandlearn.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "VARUN"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "testaccount"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "testaccount"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "AKASH"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "testaccount"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "testaccount"
+		},
+		"SqlServer4_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer4_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"SqlServer4_properties_typeProperties_userName": {
+			"value": "testaccount"
+		},
+		"SqlServer5_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer5_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"SqlServer5_properties_typeProperties_userName": {
+			"value": "testaccount"
+		},
+		"SqlServer6_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer6_properties_typeProperties_database": {
+			"value": "AKASH"
+		},
+		"SqlServer6_properties_typeProperties_userName": {
+			"value": "testaccount"
+		},
+		"SqlServer7_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer7_properties_typeProperties_database": {
+			"value": "VARUN"
+		},
+		"SqlServer7_properties_typeProperties_userName": {
+			"value": "testaccount"
+		},
+		"afdhttptestandlearn_properties_typeProperties_url": {
+			"value": "https://ursa-labs-taxi-data.s3.amazonaws.com/"
+		},
+		"afdhttptestandlearn_properties_typeProperties_userName": {
+			"value": "test123"
+		},
+		"EVENT_TRIGGER_properties_typeProperties_scope": {
+			"value": "/subscriptions/02ba7d14-72a8-4e3a-ae70-49f796918f1c/resourceGroups/rg_test/providers/Microsoft.Storage/storageAccounts/adlstrialandlearn"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
